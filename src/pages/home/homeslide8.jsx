@@ -1,8 +1,24 @@
-import React from "react";
+import React ,{useContext}from "react";
+import { HomeContext } from "../context/homecontext";
 
 const Home_slide_eight = () =>{
+    const {healthConcernsData,
+        setHealthConcernsData,
+        winterCareData,
+        setWinterCareData,
+        immunitySupplementData,
+        setImmunitySupplementData,
+        featuredBrandsData,
+        setFeaturedBrandsData,
+        healthCheckupsData,
+        setHealthCheckupsData} = useContext(HomeContext);
+    
+        
     return (
-        <h1>Home Slide Eight</h1>
+       <>
+
+        <h1>slide six</h1>
+       </>
     )
 }
 

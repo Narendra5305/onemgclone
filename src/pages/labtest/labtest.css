@@ -1,0 +1,86 @@
+
+/* -------------lab-component-1------------ */
+
+
+
+
+.lab-compo-one{
+    background-color:rgb(247,249,252);
+    
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.lab-compo-one-1{
+    
+    height: 70%;
+    width: 1300px;
+    display: flex;
+}
+
+
+
+.lab-compo-one-1-part-1{
+    
+    height: 100%;
+    width: 50%;
+}
+
+
+.lab-compo-one-1-part-1 img{
+    
+    height: 100%;
+    width: 100%;
+}
+
+
+.lab-compo-one-1-part-2{
+   
+    height: 100%;
+    width: 50%;
+}
+
+
+
+
+
+.lab-compo-one-1-part-2-cards{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.lab-compo-one-1-part-2-cards hr{
+    height: 100px;
+}
+.lab-compo-one-1-part-2-cards > div img{
+    height: 60px;
+    
+}
+
+.lab-compo-one-1-part-2-cards > div p{
+   font-size: 14px;
+   text-align: center;
+    
+}
+
+
+.lab-compo-one-1-part-2 {
+    padding-left: 20px;
+}
+
+.lab-compo-one-1-part-2 button{
+    border: none;
+    color:  white;
+    background-color: rgb(255,111,97);
+    height: 35px;
+    width: 220px;
+    border-radius: 5px;
+
+}
+/* -------------lab-component-2------------ */
+
+

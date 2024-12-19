@@ -1,0 +1,373 @@
+
+
+/* -------------------home slide one----------------------
+ */
+
+
+.one-main-home-slide{
+    margin-top: 10px;
+    height: 330px;
+    margin-left: -8px;
+    margin-right: -8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.main-home-slide-1{
+    height: 250px;
+}
+
+.main-home-slide-2{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-home-slide-2{
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: rgb(107, 107, 107);
+}
+
+.main-home-slide-1-slide{
+    width: 65em;
+    height: 250px;
+}
+
+.main-home-slide-1-slide img{
+    height: 250px;
+}
+
+.main-home-slide-1-fix img{  
+    width: 30em;
+    height: 250px;
+}
+
+.main-home-slide-1{
+    display: flex;
+}
+
+.main-home-slide-1-fix{
+    width: 35em;
+    height: 250px;
+}
+
+
+/* -------------------home slide two----------------------
+ */
+
+
+.two-main-home-slide{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
+
+.two-main-home-slide-1{
+    width: 1300px;
+}
+
+
+.two-main-home-slide-1 img{
+    width: 1300px;
+}
+
+
+
+
+
+/* -------------------home slide three----------------------
+ */
+
+.three-main-home-slide{
+    margin-top: -20px;
+    height: 265px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+
+.three-main-home-slide{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.three-main-home-slide-one{
+    width: 1300px;
+}
+
+.three-main-home-slide-one p{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(24, 24, 24);
+}
+
+
+
+.three-main-home-slide-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    height: 220px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.three-main-home-slide-two-one{
+    display: flex;
+    gap: 30px;
+    width: 1300px;
+    justify-content: space-evenly;
+    scroll-behavior: smooth;
+}
+
+.card {
+    width: 180px;
+    height: 200px;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card img{
+    height: 120px;
+    
+}
+
+
+.card p{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.card:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.three-main-home-slide-two button{
+    font-size: 24px;
+    color: rgb(246, 95, 81);
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: none;
+}
+
+.three-main-btn-1{
+    display: none;
+}
+
+
+
+
+
+/* -------------------home slide four----------------------
+ */
+
+ .four-main-home-slide{
+    margin-top: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+  
+}
+
+
+.four-main-home-slide{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.four-main-home-slide-one{
+    width: 1300px;
+}
+
+.four-main-home-slide-one p{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(24, 24, 24);
+}
+
+
+
+.four-main-home-slide-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.four-main-home-slide-two-one{
+    display: flex;
+    gap: 20px;
+    width: 1300px;
+    justify-content: space-evenly;
+    scroll-behavior: smooth;
+}
+
+.four-card {
+    width: 220px;
+    height: 380px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.four-card h3{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.four-card img{
+    height: 180px;
+    
+}
+
+
+.four-card p{
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.four-card:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.four-main-home-slide-two button{
+    font-size: 24px;
+    color: rgb(246, 95, 81);
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: none;
+}
+
+.four-main-btn-1{
+    display: none;
+}
+
+.four-main-home-slide-two-one p{
+    color: rgb(65, 65, 65);
+}
+
+.four-main-home-slide-two-one p ,h4{
+    text-align: left;
+    margin-top: -1px;
+}
+
+.four-main-home-slide-two-one .p2 ,.p1{
+    margin-top: -10px;
+}
+
+.four-main-home-slide-two-one .p2 {
+    margin-bottom: 25px;
+}
+
+
+.four-main-home-slide-two-one h4{
+    font-size: 16px;
+}
+
+
+
+
+
+
+/* -------------------home slide five----------------------
+ */
+
+
+.five-main-home-slide{
+    margin-top: 10px;
+    height: 265px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: 100px;
+}
+
+
+.five-main-home-slide{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.five-main-home-slide-one{
+    width: 1300px;
+    
+}
+
+.five-main-home-slide-one p{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(24, 24, 24);
+}
+
+
+
+.five-main-home-slide-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    height: 200px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.five-main-home-slide-two-one{
+    display: flex;
+    gap: 30px;
+    width: 1300px;
+    justify-content: space-evenly;
+    scroll-behavior: smooth;
+}
+
+.card {
+    width: 180px;
+    height: 180px;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card img{
+    height: 120px;
+    
+}
+
+
+.card p{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.card:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.five-main-home-slide-two button{
+    font-size: 24px;
+    color: rgb(246, 95, 81);
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: none;
+}
+
+.five-main-btn-1{
+    display: none;
+}

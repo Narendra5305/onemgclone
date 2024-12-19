@@ -1,0 +1,208 @@
+.consultPage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.consultation p,h1{
+    margin: 0;
+}
+
+
+.consultPage > img{
+    width: 100%;
+}
+
+
+.consultation{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.consult-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items:flex-start;
+}
+
+.consult-info > p{
+    font-size: 22px;
+    font-weight: 300;
+    color: gray;
+}
+
+.consult-info > div{
+    display: flex;
+    gap:15px;
+}
+
+
+.consult-info > div > div{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.consult-info > button{
+    background-color: coral;
+    color: whitesmoke;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.consultCounter{
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 5px;
+   width: 65%;
+   margin: 0 auto;
+   padding: 20px 0px;
+   top: 430px;
+   left: 250px;
+}
+
+.consultCounter > div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.consultCounter > div > div > h1{
+    font-size: 68px;
+    color: coral;
+}
+
+.consultCounter > div > div > h3{
+    font-weight: 600;
+    color: gray;
+}
+
+.consultCounter > div> div{
+    padding: 10px 60px;
+}
+
+.consultCounter > div > div:nth-child(2){
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.feedback{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 150px;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.feedback > p:first-child{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.feedback > p:last-child{
+    font-size: 16px;
+    font-weight: 600;
+    color: gray;
+}
+
+
+.achivements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.achivements > div > h3{
+    margin: 0px;
+    color: #333;
+}
+
+.achivements > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.achivements > div > img{
+    width: 70px;
+}
+
+.achivements > div > p{
+    font-size: 14px;
+    color: grey;
+}
+
+.frequent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.frequent > div{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.frequent > div > div{
+    padding: 8px;
+    border-bottom: 1px solid rgb(235, 225, 225);
+}
+
+.frequent > div > div > p:first-child{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.frequent > div > div > p:last-child{
+    font-size: 18px;
+    color: gray;
+}
+
+.frequent > h2{
+    color: rgb(158, 142, 142);
+}
+
+.help{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: whitesmoke;
+    padding: 50px;
+}
+
+.help > div:first-child > img{
+    width: 200px;
+}
+
+.help > div:last-child{
+    width: 400px;
+}
+
+.help > div:last-child > button{
+    padding: 10px 80px;
+    background-color: coral;
+    color: white;
+    font-weight: 600;
+    border: none;
+
+}

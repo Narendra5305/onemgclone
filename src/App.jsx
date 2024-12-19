@@ -1,20 +1,32 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Header from './pages/header/Header'
-import Footer from './pages/footer/footer'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
+
 import Home from './pages/home/home'
+import ConsultPage from './pages/consult/ConsultPage'
+import LabTest from './pages/labtest/labtest';
 
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Home/>
-     
-    </>
+    <Router>
+      
+
+      <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/consult' element={<ConsultPage/>}/>
+          <Route path='/labtest' element={<LabTest/>}/>
+      </Routes>
+
+      
+    </Router>
   )
 }
 

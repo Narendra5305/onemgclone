@@ -1,13 +1,7 @@
-const img_f_m_1 = [
-    "https://onemg.gumlet.io/0f4763f1-32f0-440e-b270-8ea77f9bcefc_1724233095.jpg?w=1013&h=250&format=auto",
-    "https://onemg.gumlet.io/59ee2d70-55fe-4f5b-9fc7-5cc0cda5ea2a_1728986104.png?w=1013&h=250&format=auto",
-    "https://onemg.gumlet.io/2024-12%2F1734029184_Winter_960x200.png?w=1013&h=250&format=auto",
-    "https://onemg.gumlet.io/c3dbf4cc-d627-4241-8480-b1740e440f03_1733913407.png?w=1013&h=250&format=auto",
-    "https://onemg.gumlet.io/2024-12%2F1733914106_Tata_960x200.png?w=1013&h=250&format=auto",
-    "https://onemg.gumlet.io/2024-12%2F1734003663_960x200.png?w=1013&h=250&format=auto",
-    "https://onemg.gumlet.io/e0686aa4-1aab-4f47-a576-696dcec8cf12_1709298575.png?w=1013&h=250&format=auto",
-    "https://onemg.gumlet.io/2024-12%2F1733913992_Cancer_960x200.png?w=1013&h=250&format=auto"
-]
+const img_f_m_1 = 
+    "https://onemg.gumlet.io/0f4763f1-32f0-440e-b270-8ea77f9bcefc_1724233095.jpg?w=1013&h=250&format=auto"
+    
+
 
 
 const img_f_m_2 = "https://onemg.gumlet.io/2024-12%2F1734012352_Winter_1948x800.png"
@@ -32,7 +26,7 @@ const healthConcerns = [
 const winter_care = [
     {
       "title": "Zandu Chyavanprash Avaleha | For Immunity, Strength & Stamina Jaggery",
-      "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/jznrkwvlkh1eau9x8muk.jpg",
+      "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/jznrkwvlkh1eau9x8muk.jpg",
       "description": "Zandu Chyavanprash Avaleha, made with jaggery, helps boost immunity, strength, and stamina with its Ayurvedic formulation.",
       "price": "₹450",
       "discount_price": "₹400",
@@ -46,7 +40,7 @@ const winter_care = [
     },
     {
       "title": "Organic India Tea for Immunity, Antioxidant Support & Stress Relief | Flavour Lemon Ginger Green Tea",
-      "image": "",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/zztxxk5kpsgowlifcjpp.jpg",
       "description": "Organic India Tea is a flavorful blend of lemon, ginger, and green tea that provides immunity support, antioxidants, and stress relief.",
       "price": "₹350",
       "discount_price": "₹320",
@@ -60,7 +54,7 @@ const winter_care = [
     },
     {
       "title": "Tetley Green Tea Immune with Added Vitamin C Tea Bag (1.4gm Each) | Flavour Ginger, Mint & Lemon",
-      "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/zztxxk5kpsgowlifcjpp.jpg",
+      "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/10b2f9449d0b4d259d287d781e86416e.jpg",
       "description": "Tetley Green Tea with added Vitamin C offers a refreshing flavor of ginger, mint, and lemon to support your immune health.",
       "price": "₹280",
       "discount_price": "₹250",
@@ -285,7 +279,7 @@ const immunity_supplement = [
   ]
   
 
-const Featured_brands = [
+const featured_brands = [
     {
       "id": 1,
       "image_link": "https://onemg.gumlet.io/2024-12%2F1733823130_Cetaphil.png?format=auto"
@@ -375,5 +369,5 @@ const health_checkups = [
   
 
 
-export default {img_f_m_1 ,img_f_m_2 , img_f_m_3 , healthConcerns ,  winter_care , immunity_supplement , Featured_brands ,health_checkups
+export default {img_f_m_1 ,img_f_m_2 , img_f_m_3 , healthConcerns ,  winter_care , immunity_supplement , featured_brands ,health_checkups
 }

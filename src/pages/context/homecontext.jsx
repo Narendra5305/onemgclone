@@ -8,8 +8,7 @@ export const HomeContext = createContext();
 
 export const HomeContextProvider = ({children}) =>{
 
-    console.log(homeData.img_f_m_1)
-
+    
     const  [healthConcernsData ,setHealthConcernsData ] = useState([]);
     const  [winterCareData ,setWinterCareData ] = useState([]);
     const  [immunitySupplementData ,setImmunitySupplementData ] = useState([]);
@@ -17,15 +16,14 @@ export const HomeContextProvider = ({children}) =>{
     const  [healthCheckupsData ,setHealthCheckupsData ] = useState([]);
 
     useEffect(() => {
-      setHealthConcernsData()
-      setWinterCareData()
-      setImmunitySupplementData()
-      setFeaturedBrandsData()
-      setHealthCheckupsData()
+      setHealthConcernsData([...homeData.healthConcerns])
+      setWinterCareData([...homeData.winter_care])
+      setImmunitySupplementData([...homeData.immunity_supplement])
+      setFeaturedBrandsData([...homeData.featured_brands])
+      setHealthCheckupsData([...homeData.health_checkups])
     }, [])
     
-
-
+    
     return(
         <HomeContext.Provider value={{healthConcernsData,
             setHealthConcernsData,
@@ -37,7 +35,10 @@ export const HomeContextProvider = ({children}) =>{
             setFeaturedBrandsData,
             healthCheckupsData,
             setHealthCheckupsData}}>
+
             {children}
+            
         </HomeContext.Provider>
     )
 }
+
