@@ -112,30 +112,36 @@ function ConsultPageComponent() {
             <p>When will I get an answer to my query? What happens if I don’t get a response?</p>
             <p>If you opt for a free consult, then we make sure the doctor replies within 24 to 48 hours. In case of a paid consult, you will receive a reply within 2-4 business hours. However, if you do not get any response within the stipulated time, we will refund your money back into your account.</p>
           </div>
+
           <div>
-            <p>When will I get an answer to my query? What happens if I don’t get a response?</p>
-            <p>If you opt for a free consult, then we make sure the doctor replies within 24 to 48 hours. In case of a paid consult, you will receive a reply within 2-4 business hours. However, if you do not get any response within the stipulated time, we will refund your money back into your account.</p>
+            <p>Who are the consulting doctors?</p>
+            <p>All the doctors are registered medical practitioners. Along with qualifying degrees - experience, research and track-record of practice are taken into account before a doctor is credentialed with Tata 1mg and is given access to answer patient queries.</p>
           </div>
+
           <div>
-            <p>When will I get an answer to my query? What happens if I don’t get a response?</p>
-            <p>If you opt for a free consult, then we make sure the doctor replies within 24 to 48 hours. In case of a paid consult, you will receive a reply within 2-4 business hours. However, if you do not get any response within the stipulated time, we will refund your money back into your account.</p>
+            <p>Will the doctor be able to resolve my issue?</p>
+            <p>Our doctors will give you expert advice on your problem and help you identify next steps which may include further tests, medicine recommendation or lifestyle tips. Few cases require face-to-face examination and we do ask patients to share pictures or reports if they can, for a conclusive diagnosis.</p>
           </div>
+
           <div>
-            <p>When will I get an answer to my query? What happens if I don’t get a response?</p>
-            <p>If you opt for a free consult, then we make sure the doctor replies within 24 to 48 hours. In case of a paid consult, you will receive a reply within 2-4 business hours. However, if you do not get any response within the stipulated time, we will refund your money back into your account.</p>
+            <p>Is my consultation private with my doctor?</p>
+            <p>Privacy of data is one of the fundamental human rights and we at Tata 1mg understand that. All your medical history and online consultation with us are completely private and confidential. We are compliant with industry standards to ensure your consultations are securely stored.</p>
           </div>
+
+
           <div>
-            <p>When will I get an answer to my query? What happens if I don’t get a response?</p>
-            <p>If you opt for a free consult, then we make sure the doctor replies within 24 to 48 hours. In case of a paid consult, you will receive a reply within 2-4 business hours. However, if you do not get any response within the stipulated time, we will refund your money back into your account.</p>
+            <p>For how long is the consultation valid?</p>
+            <p>In the case of a paid consult, you can follow-up with your doctor for up to 3 days. In case you opt for a free consult, follow-up questions are valid for one day only.</p>
           </div>
+
+
           <div>
-            <p>When will I get an answer to my query? What happens if I don’t get a response?</p>
-            <p>If you opt for a free consult, then we make sure the doctor replies within 24 to 48 hours. In case of a paid consult, you will receive a reply within 2-4 business hours. However, if you do not get any response within the stipulated time, we will refund your money back into your account.</p>
+            <p>Do you have a refund policy?</p>
+            <p>We have a “take-it-easy” policy. If for any reason you’re not convinced with your online consultation, you can write to us at contact@1mgdoctors.com and we will review the consult with the doctor - seeking clarifications on your queries that were answered. 100% refund will be given in genuine cases.</p>
           </div>
-          <div>
-            <p>When will I get an answer to my query? What happens if I don’t get a response?</p>
-            <p>If you opt for a free consult, then we make sure the doctor replies within 24 to 48 hours. In case of a paid consult, you will receive a reply within 2-4 business hours. However, if you do not get any response within the stipulated time, we will refund your money back into your account.</p>
-          </div>
+
+
+          
           </div>
         </div>
   

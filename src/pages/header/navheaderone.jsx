@@ -49,7 +49,7 @@ const HeaderOne = ()=>{
 
                         <div className="nav-right-nest-4">
                             <div className="nav-help">
-                                <a href="">Need Help?</a>
+                                <a onClick={()=>navigate('/contact')}>Need Help?</a>
                             </div>
                         </div>
 
