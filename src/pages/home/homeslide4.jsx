@@ -3,9 +3,11 @@ import React, {useContext , useState} from "react";
 import '../home/homeslide.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faChevronLeft ,faChevronRight} from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from "react-router";
 
 
 const Home_slide_four = () =>{
+    const navigate = useNavigate();
     const {healthConcernsData,
         setHealthConcernsData,
         winterCareData,
@@ -31,7 +33,7 @@ const Home_slide_four = () =>{
                 <button className={index===0 ? 'four-main-btn-1':''}  onClick={()=>setIndex(index-1)}><FontAwesomeIcon icon={faChevronLeft} /></button> 
                 <div className="four-main-home-slide-two-one">
                     {new_arr.map((ele)=>(
-                        <div key={ele.id} className="four-card">
+                        <div onClick={()=>navigate('/wintercare')} key={ele.id} className="four-card">
                             <img src={ele.image} alt="winter essential images" />
                             <h3>{`${ele.title.slice(0,30)}....`}</h3>
                             <p className="p1">Box of {ele.weight}</p>

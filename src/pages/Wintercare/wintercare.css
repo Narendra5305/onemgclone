@@ -1,0 +1,58 @@
+
+.wintercare-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.wintercare-cont-features{
+    height: 50px;
+}
+
+
+
+.wintercare-cont{
+    width: 1400px;
+    
+}
+
+.wintercare-cont-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+.winterdata-Card img{
+    height: 200px;
+}
+
+
+.winterdata-Card h3{
+   font-size: 12px;
+}
+
+
+.winterdata-Card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.winterdata-Card button{
+    width: 150px;
+    background-color: rgb(246, 95, 81);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.winterdata-Card p{
+    font-size: 12px;
+}

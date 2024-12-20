@@ -17,8 +17,8 @@ const HeaderOne = ()=>{
                         <li onClick={()=>navigate('/labtest')}>LAB TESTS</li>
                         <li onClick={()=>navigate('/consult')}>CONSULT DOCTORS</li>
                         <li>CANCER CARE</li>
-                        <li>PARTNERSHIP</li>
-                        <li>CARE PLAN</li>
+                        <li onClick={()=>navigate('/contact')}>PARTNERSHIP</li>
+                        <li onClick={()=>navigate('/labtest')}>CARE PLAN</li>
                     </ul>
                 </div>
 
@@ -42,7 +42,7 @@ const HeaderOne = ()=>{
 
                         <div className="nav-right-nest-3">
                             <div className="nav-cart">
-                                <a href=""><FontAwesomeIcon icon={faCartShopping} /></a>
+                                <a onClick={()=>navigate('/cart')}><FontAwesomeIcon icon={faCartShopping} /></a>
                             </div>
                         </div>
 

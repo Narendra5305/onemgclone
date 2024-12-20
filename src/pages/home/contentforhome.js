@@ -25,6 +25,7 @@ const healthConcerns = [
 
 const winter_care = [
     {
+      "id":0 ,
       "title": "Zandu Chyavanprash Avaleha | For Immunity, Strength & Stamina Jaggery",
       "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/jznrkwvlkh1eau9x8muk.jpg",
       "description": "Zandu Chyavanprash Avaleha, made with jaggery, helps boost immunity, strength, and stamina with its Ayurvedic formulation.",
@@ -39,6 +40,7 @@ const winter_care = [
       "brand_name": "Zandu"
     },
     {
+      "id":1 ,
       "title": "Organic India Tea for Immunity, Antioxidant Support & Stress Relief | Flavour Lemon Ginger Green Tea",
       "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/zztxxk5kpsgowlifcjpp.jpg",
       "description": "Organic India Tea is a flavorful blend of lemon, ginger, and green tea that provides immunity support, antioxidants, and stress relief.",
@@ -53,6 +55,7 @@ const winter_care = [
       "brand_name": "Organic India"
     },
     {
+      "id":2 ,
       "title": "Tetley Green Tea Immune with Added Vitamin C Tea Bag (1.4gm Each) | Flavour Ginger, Mint & Lemon",
       "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/10b2f9449d0b4d259d287d781e86416e.jpg",
       "description": "Tetley Green Tea with added Vitamin C offers a refreshing flavor of ginger, mint, and lemon to support your immune health.",
@@ -67,6 +70,7 @@ const winter_care = [
       "brand_name": "Tetley"
     },
     {
+      "id":3,
       "title": "Nivea Multi-Purpose Creme | Protects & Moisturises Skin",
       "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/aoyv1cwt3wmzsqpvnddu.jpg",
       "description": "Nivea Multi-Purpose Creme is a trusted skincare solution that protects and moisturizes your skin all day.",
@@ -81,6 +85,7 @@ const winter_care = [
       "brand_name": "Nivea"
     },
     {
+      "id":4,
       "title": "Sri Sri Tattva Natural Honey | No Sugar Adulteration",
       "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/yszubhuqcxrntig0yzth.jpg",
       "description": "Sri Sri Tattva Natural Honey is a pure and natural sweetener with no sugar adulteration, ideal for a healthy lifestyle.",
@@ -95,6 +100,7 @@ const winter_care = [
       "brand_name": "Sri Sri Tattva"
     },
     {
+      "id":5 ,
       "title": "Asbob Healthcare 3 in 1 Vaporizers, Steamer, Steam Inhaler, Facial Steamer Vaporiser for Cold and Cough Blue",
       "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/7d5e0cdceee74589a7d35bd85f60c84c.jpg",
       "description": "A versatile 3-in-1 vaporizer suitable for steam inhalation, facial steaming, and cold relief.",
@@ -109,6 +115,7 @@ const winter_care = [
       "brand_name": "Asbob Healthcare"
     },
     {
+        "id":6,
       "title": "Tata 1mg Hot Water Bag for Period Cramps & Pain Relief | Leak proof | Long heat retention | Red",
       "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/5a831babaee94a89853452a2a5032b7a.jpg",
       "description": "Tata 1mg Hot Water Bag provides effective pain relief with long heat retention and a leak-proof design.",
@@ -123,6 +130,7 @@ const winter_care = [
       "brand_name": "Tata 1mg"
     },
     {
+      "id":7 ,
       "title": "Zandu Pure Honey with No Added Sugar | Free from Adulteration",
       "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/91f1a2bfd1304c1b988a381a37cbcdaa.jpg",
       "description": "Zandu Pure Honey is a natural sweetener, free from added sugar and adulteration, perfect for healthy living.",
@@ -137,6 +145,7 @@ const winter_care = [
       "brand_name": "Zandu"
     },
     {
+      "id":8,
       "title": "Tata 1mg Digital Thermometer with One Touch Operation for Child and Adult",
       "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ecef90a98df740c789f849d6140b7a16.jpg",
       "description": "Tata 1mg Digital Thermometer offers fast and accurate temperature readings for children and adults.",
@@ -151,6 +160,7 @@ const winter_care = [
       "brand_name": "Tata 1mg"
     },
     {
+      "id":9,
       "title": "Baidyanath Kesari Kalp Royal Chyawanprash | For Immunity, Vitality, Strength & Stamina",
       "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/4e9a0ea473f64df1b13a68e00144834b.jpg",
       "description": "Baidyanath Kesari Kalp Chyawanprash is enriched with saffron and herbs to boost vitality, strength, and immunity.",
@@ -316,56 +326,56 @@ const featured_brands = [
   
 
 
-const health_checkups = [
+  const health_checkups = [
     {
-      "id": "001",
-      "title": "Comprehensive Gold Full Body Checkup",
-      "price": "₹3,999",
-      "you_need_to_provide": "Blood sample, fasting",
-      "test_is_for": "Male/Female",
-      "test_preparation": "Fast for 10-12 hours before the test."
+      id: 1,
+      title: "Comprehensive Gold Full Body Checkup",
+      price: "₹3,999",
+      you_need_to_provide: "Blood sample, fasting",
+      test_is_for: "Male/Female",
+      test_preparation: "Fast for 10-12 hours before the test."
     },
     {
-      "id": "002",
-      "title": "Good Health Silver Package",
-      "price": "₹2,499",
-      "you_need_to_provide": "Blood sample, fasting",
-      "test_is_for": "Male/Female",
-      "test_preparation": "Avoid fatty meals 24 hours prior."
+      id: 2,
+      title: "Good Health Silver Package",
+      price: "₹2,499",
+      you_need_to_provide: "Blood sample, fasting",
+      test_is_for: "Male/Female",
+      test_preparation: "Avoid fatty meals 24 hours prior."
     },
     {
-      "id": "003",
-      "title": "Comprehensive Silver Full Body Checkup",
-      "price": "₹2,999",
-      "you_need_to_provide": "Blood sample, fasting",
-      "test_is_for": "Male/Female",
-      "test_preparation": "Fast for 8-10 hours before the test."
+      id: 3,
+      title: "Comprehensive Silver Full Body Checkup",
+      price: "₹2,999",
+      you_need_to_provide: "Blood sample, fasting",
+      test_is_for: "Male/Female",
+      test_preparation: "Fast for 8-10 hours before the test."
     },
     {
-      "id": "004",
-      "title": "Comprehensive Platinum Full Body Checkup",
-      "price": "₹6,999",
-      "you_need_to_provide": "Blood sample, fasting",
-      "test_is_for": "Male/Female",
-      "test_preparation": "Fast for 10-12 hours before the test."
+      id: 4,
+      title: "Comprehensive Platinum Full Body Checkup",
+      price: "₹6,999",
+      you_need_to_provide: "Blood sample, fasting",
+      test_is_for: "Male/Female",
+      test_preparation: "Fast for 10-12 hours before the test."
     },
     {
-      "id": "005",
-      "title": "Good Health Platinum Package",
-      "price": "₹5,499",
-      "you_need_to_provide": "Blood sample, fasting",
-      "test_is_for": "Male/Female",
-      "test_preparation": "Avoid alcohol 48 hours before the test."
+      id: 5,
+      title: "Good Health Platinum Package",
+      price: "₹5,499",
+      you_need_to_provide: "Blood sample, fasting",
+      test_is_for: "Male/Female",
+      test_preparation: "Avoid alcohol 48 hours before the test."
     },
     {
-      "id": "006",
-      "title": "Good Health Gold Package",
-      "price": "₹3,499",
-      "you_need_to_provide": "Blood sample, fasting",
-      "test_is_for": "Male/Female",
-      "test_preparation": "Fast for 10 hours before the test."
+      id: 6,
+      title: "Good Health Gold Package",
+      price: "₹3,499",
+      you_need_to_provide: "Blood sample, fasting",
+      test_is_for: "Male/Female",
+      test_preparation: "Fast for 10 hours before the test."
     }
-];
+  ];
   
 
 

@@ -81,6 +81,100 @@
     border-radius: 5px;
 
 }
+
+
+
 /* -------------lab-component-2------------ */
 
+.lab-compo-two{
+    display: flex;
+    justify-content: center;
+}
 
+.lab-compo-two-1{
+    width: 1300px;
+    padding-left: 30px;
+}
+
+
+.lab-compo-two-1-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.L2-cards{
+    width: 290px;
+    height: 360px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding-left: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.L2-cards h6{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.L2-cards .p1{
+    margin-top: -30px;
+    color: rgb(97, 97, 97);
+    font-size: 14px;
+}
+
+.L2-cards .p2{
+    margin-top: -40px;
+    color: rgb(97, 97, 97);
+    font-size: 14px;
+}
+
+.L2-cards > strong{
+    margin-top: -50px;
+    
+}
+
+
+
+
+.L2-cards .p4{
+    margin-top: -50px;
+    font-weight: 500;
+    
+} 
+
+.L2-cards .p5{
+    margin-top: -60px;
+    font-weight: 500;
+    
+} 
+
+.L2-cards > .l2-btn{
+    font-size: 16px;
+    color: white;
+    background-color: rgb(246, 95, 81);
+    height:40px;
+    width: 140px;
+    border-radius: 5px;
+    border: none;
+    margin-left: -120px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.L2-cards > .safe{
+    background-color: rgb(255,227,194);
+    height: 22px;
+    width: 50px;
+    padding: 5px;
+    border-radius:2px ;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    
+}
+
+.L2-cards .safe img{
+    height: 12px;
+}
