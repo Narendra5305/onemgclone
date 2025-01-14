@@ -32,16 +32,17 @@
 }
 
 .main-home-slide-1-slide{
-    width: 65em;
+    width: 40vw;
     height: 250px;
 }
 
 .main-home-slide-1-slide img{
     height: 250px;
+    
 }
 
 .main-home-slide-1-fix img{  
-    width: 30em;
+    width: 30vw;
     height: 250px;
 }
 
