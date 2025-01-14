@@ -146,6 +146,12 @@
     font-weight: 600;
 }
 
+.header-1{
+   
+    display: flex;
+    justify-content: center;
+}
+
 
 
 /* 

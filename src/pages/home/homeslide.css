@@ -12,6 +12,8 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
+
+
 .main-home-slide-1{
     height: 250px;
 }
@@ -45,6 +47,7 @@
 
 .main-home-slide-1{
     display: flex;
+    justify-content: center;
 }
 
 .main-home-slide-1-fix{
