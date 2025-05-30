@@ -55,13 +55,13 @@ const CartComponent = () =>{
                                     <div className="cart-card-2">
                                         <h4>{el.title.slice(0,40)}....</h4>
                                         <p style={{'font-size':'10px' ,'margin-top':'-10px','margin-bottom':'-0px'}}>{el.description || ''}</p>
-                                        <a >remove</a>
+                                        <a onClick={()=> handleRemove(el.id)}>remove</a>
                                     </div>
 
                                     <div className="cart-card-3">
                                         <div className="cart-card-3-1"><h2>{el.price}</h2></div>
                                         <div className="cart-card-3-2">
-                                            <button onClick={()=> UpdateQuantity(el.id ,1)}>-</button>
+                                            <button>-</button>
                                             
                                             <span>{el.quantity}</span>
 
