@@ -38,7 +38,7 @@ const Home_slide_four = () =>{
                             <h3>{`${ele.title.slice(0,30)}....`}</h3>
                             <p className="p1">Box of {ele.weight}</p>
                             <p className="p2">Delivery by <strong>{ele.delivery_time}</strong></p>
-                            <p className="p3">MRP <span className="span-1" style={{"text-decoration":"line-through",'color':'black'}}>{ele.price}</span> <span className="span-2" style={{'color':'green'}}>{ele.discount_percentage}</span> </p>
+                            <p className="p3">MRP <span className="span-1" style={{"text-decoration":"line-through",'color':'black'}}>{ele.price}</span> <span className="span-2" style={{'color':'green'}}>{ele.discount_percentage}% off</span> </p>
                             <p className="p4">{ele.price}</p>
                         </div>
                     ))}

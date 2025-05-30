@@ -8,7 +8,8 @@ const CartComponent = () =>{
     const  {cart , UpdateQuantity , RemoveFromCart} = useContext(CartContext);
     const navigate = useNavigate();
 
-    const totalPrice = cart.reduce((acc, item) => acc + item.price , 0) 
+    const totalPrice = cart.reduce((acc, item) => acc + item.price, 0);
+    console.log(totalPrice);
     
     return(
         <>
