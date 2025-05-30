@@ -8,8 +8,18 @@ const CartComponent = () =>{
     const  {cart , UpdateQuantity , RemoveFromCart} = useContext(CartContext);
     const navigate = useNavigate();
 
-    const totalPrice = cart.reduce((acc, item) => acc + item.price, 0);
-    console.log(totalPrice);
+    let totalPrice = 0 ;
+    
+    if (cart){
+        cart.reduce((acc, item) => acc + item.price, 0);
+    };
+
+
+
+    const handleRemove =(id) =>{
+        RemoveFromCart(id)
+    }
+    
     
     return(
         <>
@@ -45,13 +55,13 @@ const CartComponent = () =>{
                                     <div className="cart-card-2">
                                         <h4>{el.title.slice(0,40)}....</h4>
                                         <p style={{'font-size':'10px' ,'margin-top':'-10px','margin-bottom':'-0px'}}>{el.description || ''}</p>
-                                        <a href="">remove</a>
+                                        <a >remove</a>
                                     </div>
 
                                     <div className="cart-card-3">
                                         <div className="cart-card-3-1"><h2>{el.price}</h2></div>
                                         <div className="cart-card-3-2">
-                                            <button>-</button>
+                                            <button onClick={()=> UpdateQuantity(el.id ,1)}>-</button>
                                             
                                             <span>{el.quantity}</span>
 
@@ -100,7 +110,7 @@ const CartComponent = () =>{
                                 </div>
 
                                 <div className="fullCcart-2-1-3-2">
-                                    <p>{totalPrice}</p>
+                                    <p>₹{totalPrice}</p>
                                     <p>-0</p>
                                     <p>-0</p>
                                     <p>As per delivery address</p>
@@ -112,7 +122,7 @@ const CartComponent = () =>{
                                         <h2>Total Price</h2>
                                     </div>
                                     <div className="fullCcart-2-1-3-3-2">
-                                        <h2>{totalPrice}</h2>
+                                        <h2>₹{totalPrice}</h2>
                                     </div>
                                     
                                     

@@ -33,7 +33,7 @@ const Home_slide_four = () =>{
                 <button className={index===0 ? 'four-main-btn-1':''}  onClick={()=>setIndex(index-1)}><FontAwesomeIcon icon={faChevronLeft} /></button> 
                 <div className="four-main-home-slide-two-one">
                     {new_arr.map((ele)=>(
-                        <div onClick={()=>navigate('/wintercare')} key={ele.id} className="four-card">
+                        <div  onClick={()=>navigate('/wintercare')} key={ele.id} className="four-card">
                             <img src={ele.image} alt="winter essential images" />
                             <h3>{`${ele.title.slice(0,30)}....`}</h3>
                             <p className="p1">Box of {ele.weight}</p>
