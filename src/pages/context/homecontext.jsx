@@ -15,6 +15,8 @@ export const HomeContextProvider = ({children}) =>{
     const  [featuredBrandsData ,setFeaturedBrandsData ] = useState([]);
     const  [healthCheckupsData ,setHealthCheckupsData ] = useState([]);
 
+    
+
     useEffect(() => {
       setHealthConcernsData([...homeData.healthConcerns])
       setWinterCareData([...homeData.winter_care])

@@ -2,22 +2,34 @@ import React , {useState , useContext} from "react";
 import '../cart/cart.css'
 import { CartContext } from "../cartcontext/cartcontext";
 import { useNavigate } from "react-router";
+import { useEffect } from "react";
 
 
 const CartComponent = () =>{
-    const  {cart , UpdateQuantity , RemoveFromCart} = useContext(CartContext);
+    const  {cart ,setCart, UpdateQuantity , RemoveFromCart} = useContext(CartContext);
+    const [totalPrice, setTotalPrice] = useState(0);
+
     const navigate = useNavigate();
 
-    let totalPrice = 0 ;
+  
     
-    if (cart){
-        cart.reduce((acc, item) => acc + item.price, 0);
-    };
+    useEffect(()=>{
+        if (cart){
+            const total = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
+            setTotalPrice(total);
+        };
+    },[cart ,totalPrice])
 
 
 
     const handleRemove =(id) =>{
         RemoveFromCart(id)
+    }
+
+    const handleBuyButton =(e) =>{
+        e.preventDefault()
+        setCart([])
+
     }
     
     
@@ -61,13 +73,9 @@ const CartComponent = () =>{
                                     <div className="cart-card-3">
                                         <div className="cart-card-3-1"><h2>{el.price}</h2></div>
                                         <div className="cart-card-3-2">
-                                            <button>-</button>
-                                            
-                                            <span>{el.quantity}</span>
-
-                                            <span> 
-                                                <button >+</button>
-                                            </span>
+                                            <button onClick={() => UpdateQuantity(el.id, -1)}>-</button>
+                                                <span>{el.quantity}</span>
+                                            <button onClick={() => UpdateQuantity(el.id, 1)}>+</button>
                                         </div>
                                     </div>
                                 </div>
@@ -128,11 +136,16 @@ const CartComponent = () =>{
                                     
                                 </div>
 
+                                <div className="buy-btn">
+                                    <button onClick={handleBuyButton}>Buy Now</button>
+                                </div>
+
                             </div>
                            
                         </div>
                     </div>
-
+                            
+                    
 
                 </div>
             </div>

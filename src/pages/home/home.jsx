@@ -15,7 +15,7 @@ import { HomeContextProvider } from "../context/homecontext";
 
 const Home = () =>{
     return(
-        <HomeContextProvider>
+        <>
             <Header/>
                 <Home_slide_one/>
                 <Home_slide_two/>
@@ -23,7 +23,7 @@ const Home = () =>{
                 <Home_slide_four/>
                 <Home_slide_five/>
             <Footer/>
-        </HomeContextProvider>
+        </>
     )
 }
 

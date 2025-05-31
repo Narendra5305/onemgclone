@@ -20,13 +20,18 @@ export const CartContextProvider = ({children}) =>{
         })
     }
 
-    const UpdateQuantity =(id , delta) =>{
-        setCart((prev)=>{
-            prev.map((item) =>
-                item.id===id ? {...item  , quantity : item.quantity+delta}:item
-            ).filter((item)=>item.quantity>0)
-        })
-    }
+    const UpdateQuantity = (id, delta) => {
+        setCart((prev) => {
+            return prev
+                .map((item) =>
+                    item.id === id
+                        ? { ...item, quantity: item.quantity + delta }
+                        : item
+                )
+                .filter((item) => item.quantity > 0); // Optional: remove if quantity drops to 0
+            });
+    };
+
 
 
     const RemoveFromCart =(id ) =>{
@@ -39,7 +44,7 @@ export const CartContextProvider = ({children}) =>{
 
 
     return(
-        <CartContext.Provider value={{cart ,AddToCart , UpdateQuantity , RemoveFromCart}}>
+        <CartContext.Provider value={{cart ,AddToCart ,setCart , UpdateQuantity , RemoveFromCart}}>
             {children}
         </CartContext.Provider>
     )
