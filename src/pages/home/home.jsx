@@ -13,6 +13,7 @@ import { HomeContextProvider } from "../context/homecontext";
 
 
 
+
 const Home = () =>{
     return(
         <>

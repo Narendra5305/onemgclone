@@ -2,6 +2,8 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCartShopping  } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from "react-router";
+import mediCartLogo from "../../assets/mediCartLogo.png"
+
 
 
 const HeaderOne = ()=>{
@@ -10,7 +12,7 @@ const HeaderOne = ()=>{
         <div className="navbar header-1">
                 <div className="nav-left">
                     <a onClick={()=>navigate('/')}>
-                        <img src="https://www.1mg.com/images/tata_1mg_logo.svg" className="logo-1" alt="logo" />
+                        <img src={mediCartLogo} className="logo-1" alt="logo" />
                     </a>
                     <ul className="nav-link-list" style={{listStyle:'none' , cursor:'pointer'}}>
                         <li style={{color: 'rgb(255,111,97)'}} onClick={()=>navigate('/')} >MEDICINES</li>
